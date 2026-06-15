@@ -1,0 +1,44 @@
+[
+  {
+    "collectionGroup": "incomes",
+    "queryScope": "Collection",
+    "fields": [
+      {
+        "fieldPath": "userId",
+        "order": "Ascending"
+      },
+      {
+        "fieldPath": "paymentDate",
+        "order": "Descending"
+      }
+    ]
+  },
+  {
+    "collectionGroup": "expenses",
+    "queryScope": "Collection",
+    "fields": [
+      {
+        "fieldPath": "userId",
+        "order": "Ascending"
+      },
+      {
+        "fieldPath": "date",
+        "order": "Descending"
+      }
+    ]
+  },
+  {
+    "collectionGroup": "investments",
+    "queryScope": "Collection",
+    "fields": [
+      {
+        "fieldPath": "userId",
+        "order": "Ascending"
+      },
+      {
+        "fieldPath": "purchaseDate",
+        "order": "Descending"
+      }
+    ]
+  }
+]
